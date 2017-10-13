@@ -1,12 +1,19 @@
 # Simple Python Flask Application
 
-TODO: Write a project description
+This is a simple Hello World application written in Python using the popluar Flask microframework and Docker. In this description we will go through the entire process of building a simple webservice that will run on docker. This is a guide on how to re-create the Hello World application from scratch. Along the way I will provide comments to explain various topics in depth. The main purpose of this project is strictly educational - and primarily for my own experience - but is also intended to help others getting started with flask and docker applications. 
 
-## Installation
+## Pre requisities
 
-TODO: Describe the installation process
+Some knowledge of python
+Some knowledge og Flask
+Some knowledge of Docker
 
-## Usage
+## Requirements
+
+Docker installed
+Python installed
+
+## Downloading & Installing
 
 TODO: Write usage instructions
 

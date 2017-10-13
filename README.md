@@ -29,18 +29,13 @@ This is a simple Hello World application written in Python using the popluar Fla
 * Git installed
 * Git command line installed
 
-## Sections
-
-* Section 1 - Getting started
-* Section 2 - Create your own Flask project
-
-# Section 1: Getting started
+## Getting started
 
 1. Installing the required software
 2. Downloading the project
 3. Running the project
 
-# Section 2: Create your own Flask project
+## Create your own Flask project
 
 1. Create your feature branch: `git checkout -b my-new-feature`
 2. Commit your changes: `git commit -am 'Add some feature'`

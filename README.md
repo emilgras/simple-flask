@@ -28,7 +28,7 @@ This is a simple Hello World application written in Python using the popluar Fla
 * Git installed
 * Git command line installed
 
-## Sections
+## Getting started
 
 1. Installing the required software
 2. Downloading the project 

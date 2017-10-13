@@ -6,20 +6,21 @@ This is a simple Hello World application written in Python using the popluar Fla
 
 ## Who is the target audience?
 
-* Beginners
 * Programmers
 * Software developers
 * Entrepreneurs
-* Creators
-* Everyone with an interest in programming, web development, data science etc. 
+* Anyone with an interest in Python and programming in general
+* Anyone who wants to learn how to use Flask with Docker
 
 ## Prerequisites
 
-* Some experince with programming is expected
-* Some knowledge of python
-* Some knowledge og Flask
-* Some knowledge of Docker
-* Git terminal
+* A Mac, Windows or Linux machine
+* Some coding experince
+* Some or little knowledge of python
+* Some or little knowledge og Flask
+* Some or little knowledge of Docker
+* Some or little knowledge og Git
+* Basic usage of the terminal (command line)
 
 ## Functional requirements
 
@@ -28,15 +29,23 @@ This is a simple Hello World application written in Python using the popluar Fla
 * Git installed
 * Git command line installed
 
-## Getting started
+## Sections
+
+* Section 1 - Getting started
+* Section 2 - Create your own Flask project
+
+# Section 1: Getting started
 
 1. Installing the required software
-2. Downloading the project 
+2. Downloading the project
 3. Running the project
-4. Create your feature branch: `git checkout -b my-new-feature`
-5. Commit your changes: `git commit -am 'Add some feature'`
-6. Push to the branch: `git push origin my-new-feature`
-7. Submit a pull request :D
+
+# Section 2: Create your own Flask project
+
+1. Create your feature branch: `git checkout -b my-new-feature`
+2. Commit your changes: `git commit -am 'Add some feature'`
+3. Push to the branch: `git push origin my-new-feature`
+4. Submit a pull request :D
 
 ## Installing the required software
 

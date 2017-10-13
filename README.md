@@ -15,18 +15,18 @@ This is a simple Hello World application written in Python using the popluar Fla
 
 ## Prerequisites
 
-Some experince with programming is expected
-Some knowledge of python
-Some knowledge og Flask
-Some knowledge of Docker
-Git terminal
+* Some experince with programming is expected
+* Some knowledge of python
+* Some knowledge og Flask
+* Some knowledge of Docker
+* Git terminal
 
 ## Functional requirements
 
-Docker installed 
-Python installed
-Git installed
-Git command line installed
+* Docker installed 
+* Python installed
+* Git installed
+* Git command line installed
 
 ## Sections
 

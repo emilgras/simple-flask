@@ -7,10 +7,11 @@ WORKDIR /app
 
 
 # Copy /app % requirements.txt into th containers working directory
-COPY app/ .
+COPY ./app .
 COPY requirements.txt .
 
 
+# install dependencies from requirements.txt
 RUN pip install -r requirements.txt
 
 
@@ -19,4 +20,4 @@ EXPOSE 5000
 
 
 # Run app.py when the container launches
-CMD python app.py
+CMD python app/app.py

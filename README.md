@@ -1,10 +1,3 @@
-<snippet>
-  <content><![CDATA[
-# ${1:Project Name}
-
-]]></content>
-  <tabTrigger>readme</tabTrigger>
-</snippet>
 # Simple Python Flask Application
 
 TODO: Write a project description

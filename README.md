@@ -6,7 +6,7 @@ This is a simple Hello World application written in Python using the popluar Fla
 
 ## Who is the target audience?
 
-Beginners
+*Beginners
 Programmers
 Software developers
 Entrepreneurs

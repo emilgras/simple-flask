@@ -22,29 +22,12 @@ This is a simple Hello World application written in Python using the popluar Fla
 * Some or little knowledge og Git
 * Basic usage of the terminal (command line)
 
-## Functional requirements
+## Requirements
 
 * Docker installed 
 * Python installed
 * Git installed
 * Git command line installed
-
-## Getting started
-
-1. Installing the required software
-2. Downloading the project
-3. Running the project
-
-## Create your own Flask project
-
-1. Create your feature branch: `git checkout -b my-new-feature`
-2. Commit your changes: `git commit -am 'Add some feature'`
-3. Push to the branch: `git push origin my-new-feature`
-4. Submit a pull request :D
-
-## Installing the required software
-
-TODO: 
 
 ## Running the project
 

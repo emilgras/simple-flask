@@ -54,11 +54,11 @@ TODO:
 4. Build a Docker image `Docker build -t random_image_name .`
    * `-t` lets you specify an image name. It will otherwise default to a random hash value
    * `.` This tells Docker to build an image from your current directory
-5. Run a container from image `Docker run --rm --name random_container_name -p 8000:5000 your_image_name`
+5. Run a container from image `Docker run --rm --name random_container_name -p 8000:5000 image_name`
    * `--rm` deletes the container on exit
    * `--name` lets you specify a container name
    * `-p` lets you port forward from the containers exposed port(s) to your machine. host_port:container:port
-   * lastly you enter the image name created from the Docker build command
+   * `image_name`lastly you enter a random image name created from the Docker build command
 6. Open any browser and go to http://localhost:8000 and i should say Helo World
 
 ## Downloading the project 

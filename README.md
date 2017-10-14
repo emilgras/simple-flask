@@ -16,11 +16,8 @@ This is a simple Hello World application written in Python using the popluar Fla
 
 * A Mac, Windows or Linux machine
 * Some coding experince
-* Some or little knowledge of python
-* Some or little knowledge og Flask
-* Some or little knowledge of Docker
-* Some or little knowledge og Git
-* Basic usage of the terminal (command line)
+* Little knowledge of python, Flask, Docker and Git
+* Basic understanding of using the command line
 
 ## Requirements
 
@@ -31,9 +28,9 @@ This is a simple Hello World application written in Python using the popluar Fla
 
 ## Running the project
 
-1. Make sure Docker is running locally on your computer
+1. First, make sure Docker is running locally on your computer
 2. Clone the github repository to a directory on your computer
-3. Change directory to the root of the project `cd path_to_your_project`
+3. Change directory to the root of the project `cd path/to/your/project`
 4. Build a Docker image `Docker build -t random_image_name .`
    * `-t` lets you specify an image name. It will otherwise default to a random hash value
    * `.` This tells Docker to build an image from your current directory
@@ -44,14 +41,18 @@ This is a simple Hello World application written in Python using the popluar Fla
    * `image_name` lastly you enter a random image name created from the Docker build command
 6. Open your browser and go to http://localhost:8000. It should diplay Hello World
 
-## Downloading the project 
+## File structure
 
-TODO: Write history
+TODO: Show image
 
-## Running the project
+## Inspecting the Dockerfile
 
-TODO: Write credits
+TODO:
 
-## License
+## Using venv
 
-TODO: Write license
+TODO: Is it necessary when we use Docker and Why? How to use it for local development?
+
+## Exclude any unnecessary files (.gitignore)
+
+TODO: 

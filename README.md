@@ -58,8 +58,8 @@ TODO:
    * `--rm` deletes the container on exit
    * `--name` lets you specify a container name
    * `-p` lets you port forward from the containers exposed port(s) to your machine. host_port:container:port
-   * `image_name`lastly you enter a random image name created from the Docker build command
-6. Open any browser and go to http://localhost:8000 and i should say Helo World
+   * `image_name` lastly you enter a random image name created from the Docker build command
+6. Open your browser and go to http://localhost:8000. It should diplay Hello World
 
 ## Downloading the project 
 

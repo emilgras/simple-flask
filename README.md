@@ -50,8 +50,9 @@ TODO:
 
 1. Make sure Docker is running locally on your computer
 2. Clone the github repository to a directory on your computer
-3. Change directory to the root of the directory `cd path_to_project`
+3. Change directory to the root of the directory `cd path_to_your_project`
 4. Build a Docker image with the command `Docker build -t random_image_name .`
+  * `-t` lets you specify an image name. It will otherwise default to a random hash
 5. Run a container with the command `Docker run --rm --name random_container_name -p 8000:5000 your_image_name`
 6. Open any browser and go to http://localhost:8000
 

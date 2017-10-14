@@ -6,11 +6,12 @@ This is a simple Hello World application written in Python using the popluar Fla
 
 ## Who is the target audience?
 
+* Students
 * Programmers
 * Software developers
 * Entrepreneurs
 * Anyone with an interest in Python and programming in general
-* Anyone who wants to learn how to use Flask with Docker
+* Python, FLask and Docker beginners
 
 
 ## Prerequisites
@@ -18,7 +19,7 @@ This is a simple Hello World application written in Python using the popluar Fla
 * A Mac, Windows or Linux machine
 * Some coding experince
 * Little knowledge of python, Flask, Docker and Git
-* Basic understanding of using the command line
+* Basic understanding with the command line
 
 
 ## Requirements

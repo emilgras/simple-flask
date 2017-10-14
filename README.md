@@ -1,8 +1,8 @@
 # Flask on Docker
 
 
-
 This is a simple Hello World application written in Python using the popluar Flask microframework and Docker. In this description we will go through the entire process of building a simple webservice that will run on docker. This is a guide on how to re-create the Hello World application from scratch. Along the way I will provide comments to explain various topics in depth. The main purpose of this project is strictly educational - and primarily for my own experience - but is also intended to help others getting started with flask and docker applications. 
+
 
 ## Who is the target audience?
 
@@ -12,6 +12,7 @@ This is a simple Hello World application written in Python using the popluar Fla
 * Anyone with an interest in Python and programming in general
 * Anyone who wants to learn how to use Flask with Docker
 
+
 ## Prerequisites
 
 * A Mac, Windows or Linux machine
@@ -19,12 +20,19 @@ This is a simple Hello World application written in Python using the popluar Fla
 * Little knowledge of python, Flask, Docker and Git
 * Basic understanding of using the command line
 
+
 ## Requirements
 
 * Docker installed 
 * Python installed
 * Git installed
 * Git command line installed
+
+
+## Project file structure
+
+TODO: Show image
+
 
 ## Running the project
 
@@ -52,17 +60,16 @@ This is a simple Hello World application written in Python using the popluar Fla
    
 6. Open your browser and go to http://localhost:8000. It should diplay Hello World
 
-## File structure
-
-TODO: Show image
 
 ## Inspecting the Dockerfile
 
 TODO:
 
+
 ## Using venv
 
 TODO: Is it necessary when we use Docker and Why? How to use it for local development?
+
 
 ## Exclude any unnecessary files (.gitignore)
 

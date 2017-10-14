@@ -67,9 +67,10 @@ TODO: Show image
 TODO:
 
 ```ruby
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
+app = Flask(__name__)
+@app.route('/')
+def hello:
+  return 'Hellow World!'
 ```
 
 

@@ -55,7 +55,7 @@ TODO:
    * `-t` lets you specify an image name. It will otherwise default to a random hash value
    * `.` This tells Docker to build an image from your current directory
 5. Run a container with the command `Docker run --rm --name random_container_name -p 8000:5000 your_image_name`
-   * `--rm` deletes the container on exit
+   * `--rm` deletes the container on exit
    * `--name` lets you specify a container name
    * `-p` lets you port forward from the containers exposed port(s) to your machine. host_port:container:port
    * lastly you enter the image name created from the Docker build command

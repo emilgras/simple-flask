@@ -77,12 +77,12 @@ But stopping the container will not remove it. I have managed to find a hacky so
       
       * `docker rmi -f $(docker images -qf dangling=true)` deletes all unused docker images
 
-      * `docker rmi -f image_id`. Deletes a single image by it's id
+      * `docker rmi -f image_id`. Deletes a single image by it's id
    
    
    * Deleting Docker containers
 
-   ···* `docker ps` lists all running containers and their id's. To stop a container simply type
+   ··· * `docker ps` lists all running containers and their id's. To stop a container simply type
 
       * `docker stop conatiner_id`
 

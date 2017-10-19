@@ -121,7 +121,20 @@ EXPOSE 5000
 CMD python app/app.py
 ```
 
+I have labeled every step with a number and will try to explain what goes on for every line. 
+OBS: This is not a 'how to make a Dockerfile'. This Dockerfile is a barebone example on a Dockerfile that will work for this particularly  project.
 
+1. The `FROM` instruction sets the base image for the subsequent instructions. A valid Dockerfile must start with a FROM instruction. Images can be foud at DockerHub.
+
+2. First line creates a working directory calles /app. Next line makes a new directory called app which we will use next.
+
+3. First line copies everything from the /app directory of our application to the newly created app/ directory. Then we copy the requirements.txt to the current directory.
+
+4. Runs a command to install dependecies specified in requirements.txt
+
+5. Specify the port on which the image should be exposed to. By default Flask applications always run on port 5000. It is worth noting that this line doesn't actually do anything. It is only there to help the developer see what ports are exposed. It is up to the developer to actually expose the port when using the `docker run` command.
+
+6. The last `CMD` instuction rund the main file which will start the server.
 
 
 ## Using venv

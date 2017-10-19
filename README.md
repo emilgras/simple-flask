@@ -62,6 +62,28 @@ TODO: Show image
 6. Open your browser and go to http://localhost:8000. It should diplay Hello World
 
 
+## Stopping the project - removing old images and containers
+
+Everytime you build a new image or create a new container from an image, those images or containers are srored on your computer and it is up to you to delete those files once in a while. Otherwise it will take up memory.
+
+When you have a container running all you have to do to quit is type `ctrl C`.
+
+But stopping the container will not remove it. I have managed to find a hacky solution to remove images and containers. But i really don't think it's the optimal way. So hopefully i will come back and update this section once i find a better solution. Untill then this will have to do
+
+`docker images` prints out all images on your computer. This list can either be empty or contain many images. To force remove all images use the following command
+
+   * `docker rmi -f $(docker images -qf dangling=true)`
+   
+To force delete a single image use this command
+
+   * `docker rmi -f image_id`. You can find the image_id by typing `docker images` as mentioned earlier.
+   
+
+`docker ps` lists all running containers and their id's. To stop a container simply type
+
+   * `docker stop conatiner_id`
+
+
 ## Inspecting the Dockerfile
 
 TODO:

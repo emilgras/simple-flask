@@ -3,11 +3,12 @@ FROM python:3-slim
 
 
 # Crete a working directory
-WORKDIR /app
+WORKDIR app/
+RUN mkdir app
 
 
 # Copy /app % requirements.txt into th containers working directory
-COPY ./app .
+COPY ./app app/
 COPY requirements.txt .
 
 

@@ -70,18 +70,21 @@ When you have a container running all you have to do to quit is type `ctrl C`.
 
 But stopping the container will not remove it. I have managed to find a hacky solution to remove images and containers. But i really don't think it's the optimal way. So hopefully i will come back and update this section once i find a better solution. Untill then this will have to do
 
-`docker images` prints out all images on your computer. This list can either be empty or contain many images. To force remove all images use the following command
-
-   * `docker rmi -f $(docker images -qf dangling=true)`
    
-To force delete a single image use this command
+   * Deleting Docker images
 
-   * `docker rmi -f image_id`. You can find the image_id by typing `docker images` as mentioned earlier.
+      *`docker images` prints out all images on your computer. This list can either be empty or contain many images. To force       remove all images use the following command
+      
+      * `docker rmi -f $(docker images -qf dangling=true)` deletes all unused docker images
+
+      * `docker rmi -f image_id`. Deletes a single image by it's id
    
+   
+   * Deleting Docker containers
 
-`docker ps` lists all running containers and their id's. To stop a container simply type
+      * `docker ps` lists all running containers and their id's. To stop a container simply type
 
-   * `docker stop conatiner_id`
+      * `docker stop conatiner_id`
 
 
 ## Inspecting the Dockerfile

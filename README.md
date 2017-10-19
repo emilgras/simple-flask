@@ -82,9 +82,9 @@ But stopping the container will not remove it. I have managed to find a hacky so
    
    * Deleting Docker containers
 
-   ··· * `docker ps` lists all running containers and their id's. To stop a container simply type
+      * `docker ps` lists all running containers and their id's. To stop a container simply type
 
-      * `docker stop conatiner_id`
+      * `docker stop conatiner_id`
 
 
 ## Inspecting the Dockerfile

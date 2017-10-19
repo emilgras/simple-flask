@@ -30,12 +30,14 @@ This is a simple Hello World application written in Python using the popluar Fla
 * Git command line installed
 
 
+
 ## Project file structure
 
 TODO: Show image
 
 
-## Running the project
+
+## Build and run the project
 
 1. First, make sure Docker is running locally on your computer
 
@@ -60,6 +62,7 @@ TODO: Show image
    * `image_name` lastly you enter a random image name created from the Docker build command
    
 6. Open your browser and go to http://localhost:8000. It should diplay Hello World
+
 
 
 ## Stopping the project - removing old images and containers
@@ -92,16 +95,38 @@ But stopping the container will not remove it. I have managed to find a hacky so
 TODO:
 
 ```python
-app = Flask(__name__)
-@app.route('/')
-def hello:
-  return 'Hello World!'
+# 1. Use an official Python runtime as a parent image
+FROM python:3-slim
+
+
+# 2. Create a working directory
+WORKDIR app/
+RUN mkdir app
+
+
+# 3. Copy /app % requirements.txt into th containers working directory
+COPY ./app app/
+COPY requirements.txt .
+
+
+# 4. install dependencies from requirements.txt
+RUN pip install -r requirements.txt
+
+
+# 5. specify the port number the container should expose
+EXPOSE 5000
+
+
+# 6. Run app.py when the container launches
+CMD python app/app.py
 ```
+
+
 
 
 ## Using venv
 
-TODO: Is it necessary when we use Docker and Why? How to use it for local development?
+TODO: What is venv? Why use venv? How to use venv?
 
 
 ## Exclude any unnecessary files (.gitignore)

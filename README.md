@@ -73,7 +73,7 @@ But stopping the container will not remove it. I have managed to find a hacky so
    
    * Deleting Docker images
 
-      *`docker images` prints out all images on your computer. This list can either be empty or contain many images. To force       remove all images use the following command
+      * `docker images` prints out all images on your computer. This list can either be empty or contain many images. To force       remove all images use the following command
       
       * `docker rmi -f $(docker images -qf dangling=true)` deletes all unused docker images
 
@@ -82,7 +82,7 @@ But stopping the container will not remove it. I have managed to find a hacky so
    
    * Deleting Docker containers
 
-      * `docker ps` lists all running containers and their id's. To stop a container simply type
+   ···* `docker ps` lists all running containers and their id's. To stop a container simply type
 
       * `docker stop conatiner_id`
 
